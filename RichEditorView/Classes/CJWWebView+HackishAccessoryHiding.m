@@ -26,7 +26,7 @@ static Class hackishFixClass = Nil;
     }
     [self ensureHackishSubclassExistsOfBrowserViewClass:[browserView class]];
 
-    object_setClass(browserView, hackishFixClass);
+    //    object_setClass(browserView, hackishFixClass);
 
     // This is how we will return the accessory view if we want to
     // Class normalClass = objc_getClass("UIWebBrowserView");
